@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Instrument.StoreData.Worker-9671139F-BC72-4C37-A011-28DC6844A95D</UserSecretsId>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="EasyNetQ" Version="6.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.5" />
+	<PackageReference Include="MongoDB.Driver" Version="2.16.0" />
+	<PackageReference Include="StackExchange.Redis" Version="2.6.45" />
+  </ItemGroup>
+</Project>
